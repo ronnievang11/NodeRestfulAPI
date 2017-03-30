@@ -1,0 +1,14 @@
+add postman plugin google
+localhost: 8000/api/books on bar
+change get to post
+go to header
+key: content-type
+value: application/json
+
+body-raw:
+{
+    "title": "My New Book",
+    "author": "Ronnie Vang",
+    "genre": "Fiction"
+
+}
